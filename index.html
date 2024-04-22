@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#bref2019</title>
+    <style>
+        body {
+            background-color: #242329; /* Dunkelgrauer Hintergrund */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            border: 1px solid #FFFFFF33; /* Dünner rechteckiger Rand */
+            border-radius: 10px; /* Abgerundete Ecken */
+            padding: 0px;
+            opacity: 0; /* Startet unsichtbar */
+            animation: fadeIn 2s forwards; /* Fade-In-Effekt */
+        }
+
+        img {
+            max-width: 8cm; /* Maximale Bildgröße */
+            margin-bottom: -10px; /* Geringerer Abstand nach unten */
+        }
+
+        p {
+            color: #a02725; /* Weiße Schriftfarbe */
+            font-family: 'Bebas Neue', sans-serif; /* Schriftart Bebas Neue */
+            text-transform: uppercase; /* Nur Großbuchstaben */
+            font-size: 42px; /* Vergrößerte Schriftgröße */
+            margin-bottom: 0px; /* Kein Abstand nach unten */
+            margin-top: 0px; /* Kein Abstand nach unten */
+        }
+		@font-face {
+		  font-family: "Bebas Neue";
+		  src: url("fonts/BebasNeue-Regular.woff2") format('woff2');
+		  src: url("fonts/BebasNeue-Regular.woff") format('woff');
+		}
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/bref2019.png" alt="bref2019">
+        <p>#bref2019</p>
+    </div>
+</body>
+</html>
